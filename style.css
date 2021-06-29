@@ -1,0 +1,148 @@
+
+
+:root {
+    --primary-color: #0ee0c4;
+    --dark-gray: #f0cca3;
+    --light-orange: #ebf7f5;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body{
+    margin: 0rem 20rem;
+}
+
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 23px;
+    padding: 1rem 1rem;
+    
+}
+
+.link-active{
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.list-inline{
+    display: inline;
+    
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    margin: auto;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.nav-buttons{
+    text-align: right;
+}
+
+.header-style{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.image{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.web-color{
+    color: var(--primary-color);
+}
+
+.heading{
+    font-weight: bold;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+
+.section{
+    background-color: var(--light-orange);
+    border-radius: 1rem;
+
+}
+
+.section h1{
+    text-align: center;
+
+}
+
+.about{
+    font-weight: bold;
+    color: black;
+    padding-top:  4rem;
+    font-size: 2.1rem;
+}
+
+.pera{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.6rem;
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 23px;
+    padding: 1rem 1rem;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 23px;
+    padding: 1rem 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;   
+    border-top-right-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+}
+
