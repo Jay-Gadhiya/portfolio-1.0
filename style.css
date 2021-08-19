@@ -146,4 +146,6 @@ body {
     font-size: 1.5rem;
 }
 
-
+.footer i {
+    font-size: larger;
+}
